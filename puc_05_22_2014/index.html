@@ -149,6 +149,7 @@ class: center, middle, inverse
 
 ![Style](Keep-Calm-and-Gangnam-Style.jpg)
 ---
+## code snippet (lab41/dendrite)
 ```python
 import time
 from contextlib import closing
@@ -178,9 +179,6 @@ class Connection(object):
 
     def get(self, *args, **kwargs):
         return self.request('GET', *args, **kwargs)
-
-    def post(self, *args, **kwargs):
-        return self.request('POST', *args, **kwargs)
 
     ...
 ```
