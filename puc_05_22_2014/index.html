@@ -133,6 +133,16 @@ Or how to make your coworkers not hate you
 class: center, middle, inverse
 #readability > elegance
 ---
+## code snippet
+```c
+reservation((!room = FindRoom(room_id))) || !room->isOccupied());
+```
+```c
+room = FindRoom(room_id);
+if(room != NULL)
+  reservation(!room->isOccupied());
+```
+---
 class: center, middle, inverse
 #functionality > readability
 (in the short term)
